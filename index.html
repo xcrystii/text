@@ -1,0 +1,39 @@
+body{
+  font-family: "Arial";
+  padding: 2rem;
+  color:#84bef0;
+}
+
+input{
+  border:1px solid #fff;
+  background:#fff;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  padding:0.5rem 1.2rem;
+  border-radius:20px;
+  font-size:inherit;
+}
+
+h1{
+  margin-top:2rem;
+}
+
+.wavy {
+  animation-name: wavy;
+  animation-duration: 1.3s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+@keyframes wavy {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -15px;
+  }
+  100% {
+    top: 0px;
+  }
+}
